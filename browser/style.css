@@ -31,3 +31,126 @@
   width: 12px;
   height: 12px;
 }
+
+#a {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #eee;
+  border: 18px solid red;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  display: inline;
+}
+
+ #b {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: red;
+  border: 18px solid #c3e1ba;
+  border-radius:100%;
+  width: 12px;
+  height: 12px;
+  display: inline;
+}
+
+#c {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  background: #eee;
+  border: 18px solid red;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  display: inline;
+}
+
+ #d {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  background: red;
+  border: 18px solid #c3e1ba;
+  border-radius:100%;
+  width: 12px;
+  height: 12px;
+  display: inline;
+}
+
+#e {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  background: #eee;
+  border: 18px solid red;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  display: inline;
+}
+
+ #f {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  background: red;
+  border: 18px solid #c3e1ba;
+  border-radius:100%;
+  width: 12px;
+  height: 12px;
+  display: inline;
+}
+
+#g {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  background: #eee;
+  border: 18px solid red;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  display: inline;
+}
+
+ #h {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  background: red;
+  border: 18px solid #c3e1ba;
+  border-radius:100%;
+  width: 12px;
+  height: 12px;
+  display: inline;
+}
+
+svg {
+  overflow: visible;
+  /*background-image: url("http://www.example.com/bck.png");*/
+  /*overflow-x: hidden;*/
+ position: fixed;
+}
+
+body {
+  min-height: 200vh;
+  overflow-x: hidden;
+  background-image: url("fan.pattern.jpg");
+  /*position: fixed*/
+}
+
+/*div {
+  height: 100%;
+  background-image: url("fan.pattern.jpg");
+}*/
