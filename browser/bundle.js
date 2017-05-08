@@ -9521,7 +9521,7 @@ module.exports = getIteratorFn;
 
 
 Object.defineProperty(exports, "__esModule", {
-       value: true
+   value: true
 });
 exports.default = App;
 
@@ -9532,144 +9532,36 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-       var paperPlanes = 'xlink:href="paper.planes.jpg';
-       return _react2.default.createElement(
-              'div',
-              { className: 'parallax' },
-              _react2.default.createElement(
-                     'div',
-                     { className: 'parallax__layer parallax__layer--back--6' },
-                     _react2.default.createElement(
-                            'svg',
-                            { width: '3000', height: '1000', xmlns: 'http://www.w3.org/2000/svg' },
-                            _react2.default.createElement(
-                                   'defs',
-                                   null,
-                                   _react2.default.createElement(
-                                          'pattern',
-                                          { id: 'img1', patternUnits: 'userSpaceOnUse', width: '500', height: '500' },
-                                          _react2.default.createElement('image', { xlinkHref: 'paper.planes.jpg', height: '500', width: '500' })
-                                   )
-                            ),
-                            _react2.default.createElement('path', { d: 'M -10 200 l 0 450 c 10 30, 10 100, 35 -15 c 10 30, 10 40, 45 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 35 -15 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 55 -20 c 10 30, 10 40, 45 -18 c 10 30, 10 40, 15 -16 c 10 30, 10 80, 25 -14 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 35 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 35 -13 c 10 30, 10 40, 15 -14 c 10 30, 10 40, 65 -18 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 35 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 120, 55 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -12 c 10 30, 10 40, 25 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -15 l 0 -200 l -2000 0',
-                                   stroke: '#c48fff', fill: '#f5b595' })
-                     )
-              ),
-              _react2.default.createElement(
-                     'div',
-                     { className: 'parallax__layer parallax__layer--back--5' },
-                     _react2.default.createElement(
-                            'svg',
-                            { width: '3000', height: '1000', xmlns: 'http://www.w3.org/2000/svg' },
-                            _react2.default.createElement(
-                                   'defs',
-                                   null,
-                                   _react2.default.createElement(
-                                          'pattern',
-                                          { id: 'img1', patternUnits: 'userSpaceOnUse', width: '500', height: '500' },
-                                          _react2.default.createElement('image', { xlinkHref: 'paper.planes.jpg', height: '500', width: '500' })
-                                   )
-                            ),
-                            _react2.default.createElement('path', { d: 'M -10 175 l 0 450 c 10 30, 10 100, 35 -15 c 10 30, 10 40, 45 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 35 -15 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 55 -20 c 10 30, 10 40, 45 -18 c 10 30, 10 40, 15 -16 c 10 30, 10 80, 25 -14 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 35 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 35 -13 c 10 30, 10 40, 15 -14 c 10 30, 10 40, 65 -18 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 35 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 120, 55 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -12 c 10 30, 10 40, 25 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -15 l 0 -200 l -2000 0',
-                                   stroke: '#c48fff', fill: 'red' })
-                     )
-              ),
-              _react2.default.createElement(
-                     'div',
-                     { className: 'parallax__layer parallax__layer--back--4' },
-                     _react2.default.createElement(
-                            'svg',
-                            { width: '3000', height: '1000', xmlns: 'http://www.w3.org/2000/svg' },
-                            _react2.default.createElement(
-                                   'defs',
-                                   null,
-                                   _react2.default.createElement(
-                                          'pattern',
-                                          { id: 'img1', patternUnits: 'userSpaceOnUse', width: '500', height: '500' },
-                                          _react2.default.createElement('image', { xlinkHref: 'paper.planes.jpg', height: '500', width: '500' })
-                                   )
-                            ),
-                            _react2.default.createElement('path', { d: 'M -10 150 l 0 450 c 10 30, 10 100, 35 -15 c 10 30, 10 40, 45 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 35 -15 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 55 -20 c 10 30, 10 40, 45 -18 c 10 30, 10 40, 15 -16 c 10 30, 10 80, 25 -14 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 35 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 35 -13 c 10 30, 10 40, 15 -14 c 10 30, 10 40, 65 -18 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 35 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 120, 55 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -12 c 10 30, 10 40, 25 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -15 l 0 -200 l -2000 0',
-                                   stroke: '#c48fff', fill: 'url(#img1)' })
-                     )
-              ),
-              _react2.default.createElement(
-                     'div',
-                     { className: 'parallax__layer parallax__layer--back--3' },
-                     _react2.default.createElement(
-                            'svg',
-                            { width: '3000', height: '1000', xmlns: 'http://www.w3.org/2000/svg' },
-                            _react2.default.createElement(
-                                   'defs',
-                                   null,
-                                   _react2.default.createElement(
-                                          'pattern',
-                                          { id: 'img1', patternUnits: 'userSpaceOnUse', width: '500', height: '500' },
-                                          _react2.default.createElement('image', { xlinkHref: 'paper.planes.jpg', height: '500', width: '500' })
-                                   )
-                            ),
-                            _react2.default.createElement('path', { d: 'M -10 125 l 0 450 c 10 30, 10 100, 35 -15 c 10 30, 10 40, 45 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 35 -15 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 55 -20 c 10 30, 10 40, 45 -18 c 10 30, 10 40, 15 -16 c 10 30, 10 80, 25 -14 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 35 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 35 -13 c 10 30, 10 40, 15 -14 c 10 30, 10 40, 65 -18 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 35 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 120, 55 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -12 c 10 30, 10 40, 25 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -15 l 0 -200 l -2000 0',
-                                   stroke: '#c48fff', fill: 'red' })
-                     )
-              ),
-              _react2.default.createElement(
-                     'div',
-                     { className: 'parallax__layer parallax__layer--back--2' },
-                     _react2.default.createElement(
-                            'svg',
-                            { width: '3000', height: '1000', xmlns: 'http://www.w3.org/2000/svg' },
-                            _react2.default.createElement(
-                                   'defs',
-                                   null,
-                                   _react2.default.createElement(
-                                          'pattern',
-                                          { id: 'img1', patternUnits: 'userSpaceOnUse', width: '500', height: '500' },
-                                          _react2.default.createElement('image', { xlinkHref: 'paper.planes.jpg', height: '500', width: '500' })
-                                   )
-                            ),
-                            _react2.default.createElement('path', { d: 'M -10 100 l 0 450 c 10 30, 10 100, 35 -15 c 10 30, 10 40, 45 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 35 -15 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 55 -20 c 10 30, 10 40, 45 -18 c 10 30, 10 40, 15 -16 c 10 30, 10 80, 25 -14 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 35 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 35 -13 c 10 30, 10 40, 15 -14 c 10 30, 10 40, 65 -18 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 35 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 120, 55 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -12 c 10 30, 10 40, 25 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -15 l 0 -200 l -2000 0',
-                                   stroke: '#c48fff', fill: '#f5b595' })
-                     )
-              ),
-              _react2.default.createElement(
-                     'div',
-                     { className: 'parallax__layer parallax__layer--back' },
-                     _react2.default.createElement(
-                            'svg',
-                            { width: '3000', height: '1000', xmlns: 'http://www.w3.org/2000/svg' },
-                            _react2.default.createElement(
-                                   'defs',
-                                   null,
-                                   _react2.default.createElement(
-                                          'pattern',
-                                          { id: 'img1', patternUnits: 'userSpaceOnUse', width: '500', height: '500' },
-                                          _react2.default.createElement('image', { xlinkHref: 'paper.planes.jpg', height: '500', width: '500' })
-                                   )
-                            ),
-                            _react2.default.createElement('path', { d: 'M -10 75 l 0 450 c 10 30, 10 100, 35 -15 c 10 30, 10 40, 45 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 35 -15 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 55 -20 c 10 30, 10 40, 45 -18 c 10 30, 10 40, 15 -16 c 10 30, 10 80, 25 -14 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 35 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 35 -13 c 10 30, 10 40, 15 -14 c 10 30, 10 40, 65 -18 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 35 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 120, 55 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -12 c 10 30, 10 40, 25 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -15 l 0 -200 l -2000 0',
-                                   stroke: '#c48fff', fill: 'red' })
-                     )
-              ),
-              _react2.default.createElement(
-                     'div',
-                     { className: 'parallax__layer parallax__layer--base' },
-                     _react2.default.createElement(
-                            'svg',
-                            { width: '3000', height: '1000', xmlns: 'http://www.w3.org/2000/svg' },
-                            _react2.default.createElement(
-                                   'defs',
-                                   null,
-                                   _react2.default.createElement(
-                                          'pattern',
-                                          { id: 'img1', patternUnits: 'userSpaceOnUse', width: '500', height: '500' },
-                                          _react2.default.createElement('image', { xlinkHref: 'paper.planes.jpg', height: '500', width: '500' })
-                                   )
-                            ),
-                            _react2.default.createElement('path', { d: 'M -10 50 l 0 450 c 10 30, 10 100, 35 -15 c 10 30, 10 40, 45 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 35 -15 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 55 -20 c 10 30, 10 40, 45 -18 c 10 30, 10 40, 15 -16 c 10 30, 10 80, 25 -14 c 10 30, 10 40, 45 -19 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 35 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 35 -13 c 10 30, 10 40, 15 -14 c 10 30, 10 40, 65 -18 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 35 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 45 -19 c 10 30, 10 120, 55 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -12 c 10 30, 10 40, 25 -18 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -20 c 10 30, 10 40, 25 -15 c 10 30, 10 40, 25 -19 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -14 c 10 30, 10 40, 25 -16 c 10 30, 10 40, 25 -13 c 10 30, 10 40, 25 -15 l 0 -200 l -2000 0',
-                                   stroke: '#c48fff', fill: 'url(#img1)' })
-                     )
-              )
-       );
+   var paperPlanes = 'xlink:href="paper.planes.jpg';
+   var wobblyLayers = [];
+
+   for (var i = 0; i < 10; i++) {
+      if (i % 3 === 0) fill = '#f5b595';else if (i % 2 === 0) fill = '#CCFFF4';else fill = 'red';
+      wobblyLayers.push(_react2.default.createElement(
+         'div',
+         { className: 'parallax__layer parallax__layer--back--6' },
+         _react2.default.createElement(
+            'svg',
+            { width: '3000', height: '1000', xmlns: 'http://www.w3.org/2000/svg' },
+            _react2.default.createElement(
+               'defs',
+               null,
+               _react2.default.createElement(
+                  'pattern',
+                  { id: 'img1', patternUnits: 'userSpaceOnUse', width: '500', height: '500' },
+                  _react2.default.createElement('image', { xlinkHref: 'paper.planes.jpg', height: '500', width: '500' })
+               )
+            ),
+            _react2.default.createElement('path', { d: 'M -10 ' + (25 + 25 * i) + '\n         l 0 450\n         c 10 30, 10 100, 35 -15\n         c 10 30, 10 40, 45 -16\n         c 10 30, 10 40, 45 -19\n         c 10 30, 10 40, 35 -15\n         c 10 30, 10 40, 25 -13\n         c 10 30, 10 40, 55 -20\n         c 10 30, 10 40, 45 -18\n         c 10 30, 10 40, 15 -16\n         c 10 30, 10 80, 25 -14\n         c 10 30, 10 40, 45 -19\n         c 10 30, 10 40, 25 -13\n         c 10 30, 10 40, 35 -18\n         c 10 30, 10 40, 25 -15\n         c 10 30, 10 40, 35 -13\n         c 10 30, 10 40, 15 -14\n         c 10 30, 10 40, 65 -18\n         c 10 30, 10 40, 25 -20\n         c 10 30, 10 40, 35 -14\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 45 -19\n         c 10 30, 10 120, 55 -16\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -14\n         c 10 30, 10 40, 25 -19\n         c 10 30, 10 40, 25 -14\n         c 10 30, 10 40, 25 -13\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -20\n         c 10 30, 10 40, 25 -12\n         c 10 30, 10 40, 25 -18\n         c 10 30, 10 40, 25 -15\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -14\n         c 10 30, 10 40, 25 -20\n         c 10 30, 10 40, 25 -15\n         c 10 30, 10 40, 25 -19\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -14\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -13\n         c 10 30, 10 40, 25 -15\n         l 0 -200\n         l -2000 0',
+               stroke: '#c48fff', fill: '#f5b595' })
+         )
+      ));
+   }
+   return _react2.default.createElement(
+      'div',
+      { className: 'parallax' },
+      wobblyLayers
+   );
 }
 
 /***/ }),
