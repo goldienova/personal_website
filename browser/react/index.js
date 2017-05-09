@@ -3,71 +3,54 @@ import React from 'react'
 export default function App(){
    var paperPlanes = 'xlink:href="paper.planes.jpg'
    var wobblyLayers = []
+   let fill
+   let curves = "c 10 30, 50 100, 80 -45 c 10 30, 30 40, 45 -16 c 10 70, 40 70, 45 -19 c 10 50, 25 50, 45 -40"
 
-   for(var i=0; i<10; i++){
+   for(var i=12; i>0; i--){
       if(i%3===0) fill = '#f5b595'
       else if(i%2===0) fill = '#CCFFF4'
-      else fill= 'red'
-      wobblyLayers.push( <div className="parallax__layer parallax__layer--back--6">
+      else fill= 'url(#img1)'
+      wobblyLayers.push( <div className={`parallax__layer parallax__layer--back--${i}`}>
          <svg width="3000" height="1000" xmlns="http://www.w3.org/2000/svg">
+         {fill === 'url(#img1)' ?
          <defs>
          <pattern id="img1" patternUnits="userSpaceOnUse" width="500" height="500">
          <image xlinkHref='paper.planes.jpg' height="500" width="500"/>
          </pattern>
-         </defs>
-         <path  d={`M -10 ${25 + 25*i}
+         </defs> : null}
+         <path  d={`M -10 ${25 + 40*i}
          l 0 450
-         c 10 30, 10 100, 35 -15
-         c 10 30, 10 40, 45 -16
-         c 10 30, 10 40, 45 -19
-         c 10 30, 10 40, 35 -15
-         c 10 30, 10 40, 25 -13
-         c 10 30, 10 40, 55 -20
-         c 10 30, 10 40, 45 -18
-         c 10 30, 10 40, 15 -16
-         c 10 30, 10 80, 25 -14
-         c 10 30, 10 40, 45 -19
-         c 10 30, 10 40, 25 -13
-         c 10 30, 10 40, 35 -18
-         c 10 30, 10 40, 25 -15
-         c 10 30, 10 40, 35 -13
-         c 10 30, 10 40, 15 -14
-         c 10 30, 10 40, 65 -18
-         c 10 30, 10 40, 25 -20
-         c 10 30, 10 40, 35 -14
-         c 10 30, 10 40, 25 -16
-         c 10 30, 10 40, 45 -19
-         c 10 30, 10 120, 55 -16
-         c 10 30, 10 40, 25 -16
-         c 10 30, 10 40, 25 -14
-         c 10 30, 10 40, 25 -19
-         c 10 30, 10 40, 25 -14
-         c 10 30, 10 40, 25 -13
-         c 10 30, 10 40, 25 -16
-         c 10 30, 10 40, 25 -20
-         c 10 30, 10 40, 25 -12
-         c 10 30, 10 40, 25 -18
-         c 10 30, 10 40, 25 -15
-         c 10 30, 10 40, 25 -16
-         c 10 30, 10 40, 25 -16
-         c 10 30, 10 40, 25 -14
-         c 10 30, 10 40, 25 -20
-         c 10 30, 10 40, 25 -15
-         c 10 30, 10 40, 25 -19
-         c 10 30, 10 40, 25 -16
-         c 10 30, 10 40, 25 -14
-         c 10 30, 10 40, 25 -16
-         c 10 30, 10 40, 25 -13
-         c 10 30, 10 40, 25 -15
+         ${curves.repeat(6)}
          l 0 -200
          l -2000 0`}
-         stroke='#c48fff' fill="#f5b595"/>
+         stroke='#c48fff' fill={fill}/>
          </svg>
          </div>)
    }
   return(
          <div className="parallax">
-        {wobblyLayers}
+        {
+         wobblyLayers
+      }
+        <svg width = "100%" id="flowerOne">
+          <path fill="transparent" stroke="#000" stroke-width="1.5"
+           d="M 400 0
+           l 0 450
+           c 0 -95, -65 -75, 0 0
+           c -95 0, -75 -65, 0 0
+           c -95 -95, -65 -75, 0 0
+           "
+           fill="pink"
+          />
+        </svg>
+{//         <svg width="40%" viewbox="0 0 30 42">
+//   <path fill="transparent" stroke="#000" stroke-width="1.5"
+//         d="M15 3
+//            Q25.5 6.8 35 18
+//            A12.8 12.8 0 1 1 5 18
+//            Q9.5 6.8 15 3z" />
+// </svg>
+}
 
   { // <div className="parallax__layer parallax__layer--back--5">
       // <svg width="3000" height="1000" xmlns="http://www.w3.org/2000/svg">
@@ -76,7 +59,47 @@ export default function App(){
       // <image xlinkHref="paper.planes.jpg" height="500" width="500"/>
       // </pattern>
       // </defs>
-
+      // c 10 30, 30 40, 45 -16
+      //    c 10 70, 40 70, 45 -19
+      //    c 10 50, 25 50, 45 -40
+      //    c 10 30, 10 40, 25 -13
+      //    c 10 30, 10 40, 55 -20
+      //    c 10 30, 10 40, 45 -18
+      //    c 10 30, 10 40, 15 -16
+      //    c 10 30, 10 80, 25 -14
+      //    c 10 30, 10 40, 45 -19
+      //    c 10 30, 10 40, 25 -13
+      //    c 10 30, 10 40, 35 -18
+      //    c 10 30, 10 40, 25 -15
+      //    c 10 30, 10 40, 35 -13
+      //    c 10 30, 10 40, 15 -14
+      //    c 10 30, 10 40, 65 -18
+      //    c 10 30, 10 40, 25 -20
+      //    c 10 30, 10 40, 35 -14
+      //    c 10 30, 10 40, 25 -16
+      //    c 10 30, 10 40, 45 -19
+      //    c 10 30, 10 120, 55 -16
+      //    c 10 30, 10 40, 25 -16
+      //    c 10 30, 10 40, 25 -14
+      //    c 10 30, 10 40, 25 -19
+      //    c 10 30, 10 40, 25 -14
+      //    c 10 30, 10 40, 25 -13
+      //    c 10 30, 10 40, 25 -16
+      //    c 10 30, 10 40, 25 -20
+      //    c 10 30, 10 40, 25 -12
+      //    c 10 30, 10 40, 25 -18
+      //    c 10 30, 10 40, 25 -15
+      //    c 10 30, 10 40, 25 -16
+      //    c 10 30, 10 40, 25 -16
+      //    c 10 30, 10 40, 25 -14
+      //    c 10 30, 10 40, 25 -20
+      //    c 10 30, 10 40, 25 -15
+      //    c 10 30, 10 40, 25 -19
+      //    c 10 30, 10 40, 25 -16
+      //    c 10 30, 10 40, 25 -14
+      //    c 10 30, 10 40, 25 -16
+      //    c 10 30, 10 40, 25 -13
+      //    c 10 30, 10 40, 25 -15
 
 
       // <path d="M -10 175

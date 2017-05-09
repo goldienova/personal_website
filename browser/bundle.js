@@ -9531,19 +9531,23 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function App() {
    var paperPlanes = 'xlink:href="paper.planes.jpg';
    var wobblyLayers = [];
+   var fill = void 0;
+   var curves = "c 10 30, 50 100, 80 -45 c 10 30, 30 40, 45 -16 c 10 70, 40 70, 45 -19 c 10 50, 25 50, 45 -40";
 
-   for (var i = 0; i < 10; i++) {
-      if (i % 3 === 0) fill = '#f5b595';else if (i % 2 === 0) fill = '#CCFFF4';else fill = 'red';
+   for (var i = 12; i > 0; i--) {
+      if (i % 3 === 0) fill = '#f5b595';else if (i % 2 === 0) fill = '#CCFFF4';else fill = 'url(#img1)';
       wobblyLayers.push(_react2.default.createElement(
          'div',
-         { className: 'parallax__layer parallax__layer--back--6' },
+         { className: 'parallax__layer parallax__layer--back--' + i },
          _react2.default.createElement(
             'svg',
             { width: '3000', height: '1000', xmlns: 'http://www.w3.org/2000/svg' },
-            _react2.default.createElement(
+            fill === 'url(#img1)' ? _react2.default.createElement(
                'defs',
                null,
                _react2.default.createElement(
@@ -9551,16 +9555,23 @@ function App() {
                   { id: 'img1', patternUnits: 'userSpaceOnUse', width: '500', height: '500' },
                   _react2.default.createElement('image', { xlinkHref: 'paper.planes.jpg', height: '500', width: '500' })
                )
-            ),
-            _react2.default.createElement('path', { d: 'M -10 ' + (25 + 25 * i) + '\n         l 0 450\n         c 10 30, 10 100, 35 -15\n         c 10 30, 10 40, 45 -16\n         c 10 30, 10 40, 45 -19\n         c 10 30, 10 40, 35 -15\n         c 10 30, 10 40, 25 -13\n         c 10 30, 10 40, 55 -20\n         c 10 30, 10 40, 45 -18\n         c 10 30, 10 40, 15 -16\n         c 10 30, 10 80, 25 -14\n         c 10 30, 10 40, 45 -19\n         c 10 30, 10 40, 25 -13\n         c 10 30, 10 40, 35 -18\n         c 10 30, 10 40, 25 -15\n         c 10 30, 10 40, 35 -13\n         c 10 30, 10 40, 15 -14\n         c 10 30, 10 40, 65 -18\n         c 10 30, 10 40, 25 -20\n         c 10 30, 10 40, 35 -14\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 45 -19\n         c 10 30, 10 120, 55 -16\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -14\n         c 10 30, 10 40, 25 -19\n         c 10 30, 10 40, 25 -14\n         c 10 30, 10 40, 25 -13\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -20\n         c 10 30, 10 40, 25 -12\n         c 10 30, 10 40, 25 -18\n         c 10 30, 10 40, 25 -15\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -14\n         c 10 30, 10 40, 25 -20\n         c 10 30, 10 40, 25 -15\n         c 10 30, 10 40, 25 -19\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -14\n         c 10 30, 10 40, 25 -16\n         c 10 30, 10 40, 25 -13\n         c 10 30, 10 40, 25 -15\n         l 0 -200\n         l -2000 0',
-               stroke: '#c48fff', fill: '#f5b595' })
+            ) : null,
+            _react2.default.createElement('path', { d: 'M -10 ' + (25 + 40 * i) + '\n         l 0 450\n         ' + curves.repeat(6) + '\n         l 0 -200\n         l -2000 0',
+               stroke: '#c48fff', fill: fill })
          )
       ));
    }
    return _react2.default.createElement(
       'div',
       { className: 'parallax' },
-      wobblyLayers
+      wobblyLayers,
+      _react2.default.createElement(
+         'svg',
+         { width: '100%', id: 'flowerOne' },
+         _react2.default.createElement('path', _defineProperty({ fill: 'transparent', stroke: '#000', 'stroke-width': '1.5',
+            d: 'M 400 0 l 0 450 c 0 -95, -65 -75, 0 0 c -95 0, -75 -65, 0 0 c -95 -95, -65 -75, 0 0 '
+         }, 'fill', 'pink'))
+      )
    );
 }
 
