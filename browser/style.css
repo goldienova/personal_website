@@ -137,7 +137,7 @@
 }
 
 svg {
-  overflow: visible;
+
   /*background-image: url("http://www.example.com/bck.png");*/
   /*overflow-x: hidden;*/
  /*position: fixed;*/
@@ -163,6 +163,7 @@ svg {
   background-image: url("fan.pattern.jpg");
 }
 .parallax__layer {
+    overflow: visible;
   position: absolute;
   top: 0;
   right: 0;
@@ -256,8 +257,10 @@ svg {
   transform-style: preserve-3d;
 }*/
 
-#flowerOne {
-  position: absolute;
+.flower {
+  position: fixed;
+/*  top: 0;
+  right: 0;*/
 }
 
 /*path {
