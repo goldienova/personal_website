@@ -162,6 +162,7 @@ svg {
   overflow-y: auto;
   background-image: url("fan.pattern.jpg");
 }
+
 .parallax__layer {
     overflow: visible;
   position: absolute;
@@ -236,6 +237,9 @@ svg {
 .parallax__layer--back--20 {
   transform: translateZ(-20px) scale(21);
 }
+.parallax__layer--inf {
+  transform: translateZ(-2000px) scale(2001);
+}
 /*.parallax__layer--back--10 {
   transform: translateZ(-10px) scale(11);
 }
@@ -276,4 +280,4 @@ svg {
 }*/
 
 
-html, body { padding: 0; margin: 0; }
+html, body { padding: 0; margin: 0; font-family: 'Inknut Antiqua', serif; color: '#CCFFF4';}

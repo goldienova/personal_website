@@ -10,7 +10,8 @@ export default function App(){
       if(i%3===0) fill = '#f5b595'
       else if(i%2===0) fill = '#CCFFF4'
       else fill= 'url(#img1)'
-      wobblyLayers.push( <div className={`parallax__layer parallax__layer--back--${i}`}>
+      wobblyLayers.push( <div key={i}
+                        className={`parallax__layer parallax__layer--back--${i}`}>
          <svg width="3000" height="1000" xmlns="http://www.w3.org/2000/svg">
          {fill === 'url(#img1)' ?
          <defs>
@@ -28,63 +29,18 @@ export default function App(){
          </div>)
    }
   return(
-         <div className="parallax">
-         <div style={{position: "fixed"}}>
-        <svg width = "100%" height = "100%" className="flower">
-          <path fill="transparent" stroke="#000" stroke-width="1.5"
-           d="M 400 0
-           l 0 350
-           l -25 45
-           l -35 -10
-           l 10 35
-           l -85 0
-           l 85 35
-           l -10 35
-           l 35 -10
-           l 25 85
-           l 25 -85
-           l 35 10
-           l -10 -35
-           l 85 -35
-           l -85 0
-           l 10 -35
-           l -35 10
-           L 400 350
-           "
-
-           fill="pink"
-          />
-        </svg>
-      <svg width = "100%" height = "100%" className="flower">
-          <path fill="transparent" stroke="#000" stroke-width="1.5"
-           d="M 850 0
-           l 0 200
-           l -25 45
-           l -35 -10
-           l 10 35
-           l -85 0
-           l 85 35
-           l -10 35
-           l 35 -10
-           l 25 85
-           l 25 -85
-           l 35 10
-           l -10 -35
-           l 85 -35
-           l -85 0
-           l 10 -35
-           l -35 10
-           L 850 200
-           "
-
-           fill="pink"
-          />
-        </svg>
+         <div
+            className="parallax">
+            {wobblyLayers.slice(0, 6)}
+         <div className='parallax__layer--inf' style={{
+               backgroundAttachment: 'fixed',
+               backgroundImage: "url('flower.svg')",
+               backgroundPosition: 'top left',
+               height: '100%',
+               width: '100%',
+               backgroundRepeat: 'no-repeat'
+            }} />
+            {wobblyLayers.slice(6)}
         </div>
-
-{}
-<div style={{height: "1000px"}}>
-</div>
-
-         </div>)
+   )
 }
