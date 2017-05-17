@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './react';
+import {Router, Route, hashHistory} from 'react-router';
+
+import Splash from './react';
+import Code from './react/code.jsx';
 
 ReactDOM.render(
-  <App />,
+  <Router history={hashHistory}>
+    <Route path='/' component={Splash} />
+    <Route path='/code' component={Code} />
+  </Router>,
   document.getElementById('app')
 );
