@@ -12105,7 +12105,7 @@ module.exports = getIteratorFn;
 
 
 Object.defineProperty(exports, "__esModule", {
-      value: true
+  value: true
 });
 exports.default = Code;
 
@@ -12118,73 +12118,105 @@ var _reactRouter = __webpack_require__(113);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Code() {
-      var projects = [{ name: "Bodhi" }, { name: "Artsy Filtery" }, { name: "Superpower Store" }];
+  var projects = [{ name: "Bodhi" }, { name: "Artsy Filtery" }, { name: "Superpower Store" }];
 
-      return _react2.default.createElement(
-            'div',
-            { className: 'projects-page' },
-            _react2.default.createElement(
-                  'ul',
-                  { className: 'navBar' },
-                  _react2.default.createElement(
-                        'li',
-                        null,
-                        _react2.default.createElement(
-                              _reactRouter.Link,
-                              { to: '/' },
-                              'Home'
-                        )
-                  ),
-                  _react2.default.createElement(
-                        'li',
-                        null,
-                        _react2.default.createElement(
-                              _reactRouter.Link,
-                              { to: '/art' },
-                              'Art'
-                        )
-                  ),
-                  _react2.default.createElement(
-                        'li',
-                        null,
-                        _react2.default.createElement(
-                              _reactRouter.Link,
-                              { to: '/code' },
-                              'Code'
-                        )
-                  ),
-                  _react2.default.createElement(
-                        'li',
-                        null,
-                        _react2.default.createElement(
-                              _reactRouter.Link,
-                              { to: '/about' },
-                              'About'
-                        )
-                  )
-            ),
-            _react2.default.createElement(
-                  'h1',
-                  null,
-                  ' Projects '
-            ),
-            _react2.default.createElement('hr', null),
-            _react2.default.createElement(
-                  'div',
-                  { className: 'project' },
-                  _react2.default.createElement('img', { className: 'project-img', src: '../bodhi.png' }),
-                  _react2.default.createElement(
-                        'h2',
-                        null,
-                        'Bodhi'
-                  ),
-                  _react2.default.createElement(
-                        'h4',
-                        null,
-                        'Built using firebase database, and oauth on the backend and Material UI and React on the frontend, Bodhi is a social network for giving and receiving help.  Use the map functionality to see who in your area needs a quick hand.'
-                  )
-            )
-      );
+  return _react2.default.createElement(
+    'div',
+    { className: 'projects-page' },
+    _react2.default.createElement(
+      'ul',
+      { className: 'navBar' },
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          _reactRouter.Link,
+          { to: '/' },
+          'Home'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          _reactRouter.Link,
+          { to: '/art' },
+          'Art'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          _reactRouter.Link,
+          { to: '/code' },
+          'Code'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          _reactRouter.Link,
+          { to: '/about' },
+          'About'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'h1',
+      null,
+      ' Projects '
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'div',
+      { className: 'project' },
+      _react2.default.createElement('img', { className: 'project-img', src: '../bodhi.png' }),
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Bodhi'
+      ),
+      _react2.default.createElement(
+        'h4',
+        null,
+        'Built using firebase database, and oauth on the backend and Material UI and React on the frontend, Bodhi is a social network for giving and receiving help.  Use the map functionality to see who in your area needs a quick hand.'
+      )
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'div',
+      { className: 'project' },
+      _react2.default.createElement('img', { className: 'project-img' }),
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Artsy Filtery'
+      ),
+      _react2.default.createElement(
+        'h4',
+        null,
+        'Built using firebase database, and oauth on the backend and Material UI and React on the frontend, Bodhi is a social network for fostering community support.  Use the map functionality to see who in your area needs a quick hand.'
+      )
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'div',
+      { className: 'project' },
+      _react2.default.createElement('img', { className: 'project-img' }),
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Artsy Filtery'
+      ),
+      _react2.default.createElement(
+        'h4',
+        null,
+        'Built using firebase database, and oauth on the backend and Material UI and React on the frontend, Bodhi is a social network for giving and receiving help.  Use the map functionality to see who in your area needs a quick hand.'
+      )
+    )
+  );
 }
 
 /***/ }),
