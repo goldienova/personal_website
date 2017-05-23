@@ -12500,12 +12500,17 @@ var _code = __webpack_require__(111);
 
 var _code2 = _interopRequireDefault(_code);
 
+var _about = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./react/about.jsx\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+var _about2 = _interopRequireDefault(_about);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom2.default.render(_react2.default.createElement(
   _reactRouter.Router,
   { history: _reactRouter.hashHistory },
-  _react2.default.createElement(_reactRouter.Route, { path: '/', component: _code2.default })
+  _react2.default.createElement(_reactRouter.Route, { path: '/', component: _code2.default }),
+  _react2.default.createElement(_reactRouter.Route, { path: '/about', component: _about2.default })
 ), document.getElementById('app'));
 
 /***/ }),
