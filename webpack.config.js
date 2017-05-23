@@ -15,7 +15,7 @@ module.exports = {
   // that it should put it into a file called bundle.js in our public directory
   output: {
     path: __dirname,
-    filename: './browser/bundle.js'
+    filename: './public/bundle.js'
   },
 
   // The context field simply sets the context for relative pathnames
