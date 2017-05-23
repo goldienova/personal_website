@@ -12270,8 +12270,8 @@ function Code() {
         'li',
         null,
         _react2.default.createElement(
-          _reactRouter.Link,
-          { to: '/art' },
+          'a',
+          { href: '../art/index.html' },
           'Art'
         )
       ),

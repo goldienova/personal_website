@@ -8,7 +8,7 @@ export default function Code(){
         <div className="projects-page">
         <ul className="navBar">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/art">Art</Link></li>
+        <li><a href="../art/index.html">Art</a></li>
         <li><Link to="/code">Code</Link></li>
         <li><Link to="/about">About</Link></li>
         </ul>
