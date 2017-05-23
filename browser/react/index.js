@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function App(){
+export default function Splash(){
    var paperPlanes = 'xlink:href="paper.planes.jpg'
    var wobblyLayers = []
    let fill
