@@ -181,13 +181,12 @@ hr {
 .project-right div {
   display: inline;
   width: 30%;
+  /*position: relative;*/
 }
 
 .project-right h2 {
   float: right;
   margin-right: 15%;
-/*  display: block;*/
-/*  margin-left: 27%;*/
   margin-top: 2%;
 }
 
@@ -195,11 +194,12 @@ hr {
   margin-right: 15%;
   float: right;
   color: #5387db;
+/*  position: absolute;
+  bottom: 0;*/
 }
 
 .project-right a:hover {
   background: rgba(183, 201, 230, 0.5);
-/*  color: white;*/
 }
 
 .project-right .project-img {
@@ -211,10 +211,8 @@ hr {
 }
 
 .project-right h4 {
-/*  display: block;*/
   text-align: right;
   margin-right: 15%;
- /* margin-left: 25%;*/
   margin-bottom: 5%;
   clear: right;
 }
@@ -232,9 +230,3 @@ hr {
   background-color: white;
 }
 
-/*.project-title {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  display: block;
-  position: fixed;
-}*/

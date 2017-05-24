@@ -4,7 +4,7 @@ import {Router, Route, hashHistory, IndexRedirect} from 'react-router';
 
 import Splash from './react';
 import Code from './react/code.jsx';
-//import About from './react/about.jsx';
+import About from './react/about.jsx';
 
 ReactDOM.render(
   <Router history={hashHistory}>
@@ -12,8 +12,9 @@ ReactDOM.render(
     {
     //<Route path='/code' component={Code} />
     //<IndexRedirect path='/code' />
-    //<Route path='/about' component={About} />
   }
+    <Route path='/about' component={About} />
+
 
   </Router>,
   document.getElementById('app')

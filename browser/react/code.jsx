@@ -1,18 +1,14 @@
 import React from 'react'
 import {Link} from 'react-router'
 
+import NavBar from './navBar.jsx'
+
 export default function Code(){
   var projects = [{name: "Bodhi"}, {name: "Artsy Filtery"}, {name: "Superpower Store"}]
 
   return (
-        <div className="projects-page">
-        <ul className="navBar">
-       { //<li><Link to="/">Home</Link></li>
-   }
-       <li><Link to="/code">Code</Link></li>
-       <li><a href="../art/index.html">Art</a></li>
-        <li><Link to="/about">About</Link></li>
-        </ul>
+    <div className="projects-page">
+        <NavBar />
         <h1> Projects </h1>
         <hr/>
         <div className="projects">
