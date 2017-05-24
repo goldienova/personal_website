@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router'
 
 import NavBar from './navBar.jsx'
 
@@ -17,9 +16,9 @@ export default function Code(){
          <img className="project-img" src="../assets/bodhi.png"/>
          <h2>Bodhi</h2>
          <h4>Built using firebase database, and oauth on the backend and Material UI and React on the frontend, Bodhi is a social network for giving and receiving help.  Use the map functionality to see who in your area needs a quick hand.</h4>
-         <Link to="https://github.com/kulkarnipallavis/bodhi">View Code
-         </Link>
-         <Link to="https://bodhi.community">https://bodhi.community</Link>
+         <a href="https://github.com/kulkarnipallavis/bodhi" target="_blank">View Code
+         </a>
+         <a href="https://bodhi.community/home" target="_blank">https://bodhi.community</a>
          </div>
                   <hr/>
                  <div className="project-right">
@@ -27,9 +26,9 @@ export default function Code(){
     <div>
         <h2>Superpower Store</h2>
          <h4>Built using Postgres, Sequelize, and Express for the backend--with React powering the frontend, the Superpower Store exists for all of your superpower needs.</h4>
-                  <Link to="https://github.com/JulieBusch/superpower-store">View Code
-         </Link>
-         <Link to="https://sheltered-taiga-91490.herokuapp.com/">https://sheltered-taiga-91490.herokuapp.com/</Link>
+                  <a href="https://github.com/JulieBusch/superpower-store" target="_blank">View Code
+         </a>
+         <a href="https://sheltered-taiga-91490.herokuapp.com/" target="_blank">https://sheltered-taiga-91490.herokuapp.com/</a>
          </div>
          </div>
          <hr/>
@@ -37,8 +36,8 @@ export default function Code(){
          <img className="project-img" src="../assets/savta_phone.png" style={{"margin-bottom": "2%", "margin-left": "2%"}}/>
          <h2>Savta Phone</h2>
          <h4>Simplified and fully functional iOS phone application built using React Native to create a more accessible experience for users with visual and touch impairments. </h4>
-                  <Link to="https://github.com/goldienova/SavtaPhone">View Code
-         </Link>
+                  <a href="https://github.com/goldienova/SavtaPhone" target="_blank">View Code
+         </a>
 
          </div>
 
@@ -50,7 +49,7 @@ export default function Code(){
          <img className="project-img" />
          <h2>Artsy Filtery</h2>
          <h4>Custom art filter made using HTML5's canvas element and vanilla javascript to dynamically iterate and re-render images.</h4>
-         <Link to="https://github.com/goldienova/Artsy-Filtery">View Code</Link>
+         <a href="https://github.com/goldienova/Artsy-Filtery" target="_blank">View Code</a>
          </div>
          </div>
 
