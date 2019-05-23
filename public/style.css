@@ -99,7 +99,7 @@ h1 {
   display: block;
   position: fixed;
   width: 100%;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(175, 58, 15, .7);
 }
 
  ul {
@@ -122,11 +122,11 @@ a {
 }
 
 .navBar a:link {
-  color: #000
+  color: #af3a0f
 }
 
 .navBar a:visited {
-  color: #000;
+  color: #af3a0f;
 }
 
 .navBar a:focus {
@@ -151,14 +151,24 @@ hr {
   margin-top: 14%;
 }
 
+.project-left div {
+  height: 300px;
+}
+
 
 .project-left h2 {
-  margin-left: 15%;
+  text-align: right;
+  font-size: 2em;
+  color: #ad451f;
+  margin-right: 12%;
 }
 
 .project-left a {
+  font-size: 1.3em;
   margin-left: 15%;
-  color: #5387db;
+  color: #5684ce;
+  clear: both;
+/*  display: block;*/
 }
 
 .project-left a:hover {
@@ -166,6 +176,7 @@ hr {
 }
 
 .project-left .project-img {
+  max-width: 45%;
   max-height: 300px;
   display: inline;
   float: right;
@@ -173,27 +184,34 @@ hr {
 }
 
 .project-left h4 {
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-bottom: 10%;
+  margin-top: 0;
+  display: inline-block;
+  max-width: 60%;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .project-right div {
+  height: 300px;
   display: inline;
   width: 30%;
   /*position: relative;*/
 }
 
 .project-right h2 {
-  float: right;
-  margin-right: 15%;
+/*  float: right;*/
+  font-size: 2em;
+  color: #ad451f;
+  margin-left: 10%;
   margin-top: 2%;
 }
 
 .project-right a {
+  font-size: 1.3em;
   margin-right: 15%;
   float: right;
-  color: #5387db;
+  color: #5684ce;
+  clear: both;
 /*  position: absolute;
   bottom: 0;*/
 }
@@ -203,17 +221,19 @@ hr {
 }
 
 .project-right .project-img {
+  max-width: 45%;
   max-height: 300px;
   display: inline;
   float: left;
   margin-left: 10%;
-  margin-top: 4%;
 }
 
 .project-right h4 {
-  text-align: right;
-  margin-right: 15%;
-  margin-bottom: 5%;
+  margin-top: 0;
+  display: inline-block;
+  max-width: 35%;
+/*  text-align: right;*/
+  margin-left: 5%;
   clear: right;
 }
 

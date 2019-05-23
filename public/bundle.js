@@ -12320,7 +12320,7 @@ function About() {
       _react2.default.createElement(
         'h1',
         null,
-        'Hello!  My name is Mariana Templin.  I love building things, and breaking things to help me better understand them.  I love digging deep, and looking at a problem from its micro and macro-cosms.  I am a fullstack developer, and an artist\u2014working with React.js, Node.js and Firebase.'
+        'Hello!  My name is Mariana Templin.  I love building things, and breaking things to help me better understand them.  I love digging deep, and looking at a problem from its micro and macro-cosms.  I am a fullstack developer with React.js, Node.js and Firebase.'
       )
     )
   );
@@ -12334,7 +12334,7 @@ function About() {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 exports.default = Code;
 
@@ -12349,126 +12349,148 @@ var _navBar2 = _interopRequireDefault(_navBar);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Code() {
-  var projects = [{ name: "Bodhi" }, { name: "Artsy Filtery" }, { name: "Superpower Store" }];
+    var projects = [{ name: "Bodhi" }, { name: "Artsy Filtery" }, { name: "Superpower Store" }];
 
-  return _react2.default.createElement(
-    'div',
-    { className: 'projects-page' },
-    _react2.default.createElement(_navBar2.default, null),
-    _react2.default.createElement(
-      'h1',
-      null,
-      ' Projects '
-    ),
-    _react2.default.createElement('hr', null),
-    _react2.default.createElement(
-      'div',
-      { className: 'projects' },
-      _react2.default.createElement('hr', null),
-      _react2.default.createElement(
+    return _react2.default.createElement(
         'div',
-        { className: 'project-left' },
-        _react2.default.createElement('img', { className: 'project-img', src: '../assets/bodhi.png' }),
+        { className: 'projects-page' },
+        _react2.default.createElement(_navBar2.default, null),
         _react2.default.createElement(
-          'h2',
-          null,
-          'Bodhi'
-        ),
-        _react2.default.createElement(
-          'h4',
-          null,
-          'Built using firebase database, and oauth on the backend and Material UI and React on the frontend, Bodhi is a social network for giving and receiving help.  Use the map functionality to see who in your area needs a quick hand.'
-        ),
-        _react2.default.createElement(
-          'a',
-          { href: 'https://github.com/kulkarnipallavis/bodhi', target: '_blank' },
-          'View Code'
-        ),
-        _react2.default.createElement(
-          'a',
-          { href: 'https://bodhi.community/home', target: '_blank' },
-          'https://bodhi.community'
-        )
-      ),
-      _react2.default.createElement('hr', null),
-      _react2.default.createElement(
-        'div',
-        { className: 'project-right' },
-        _react2.default.createElement('img', { className: 'project-img', src: '../assets/superpower_store.png', style: { "max-width": "25%" } }),
-        _react2.default.createElement(
-          'div',
-          null,
-          _react2.default.createElement(
-            'h2',
+            'h1',
             null,
-            'Superpower Store'
-          ),
-          _react2.default.createElement(
-            'h4',
-            null,
-            'Built using Postgres, Sequelize, and Express for the backend--with React powering the frontend, the Superpower Store exists for all of your superpower needs.'
-          ),
-          _react2.default.createElement(
-            'a',
-            { href: 'https://github.com/JulieBusch/superpower-store', target: '_blank' },
-            'View Code'
-          ),
-          _react2.default.createElement(
-            'a',
-            { href: 'https://sheltered-taiga-91490.herokuapp.com/', target: '_blank' },
-            'https://sheltered-taiga-91490.herokuapp.com/'
-          )
+            ' Projects '
+        ),
+        _react2.default.createElement('hr', null),
+        _react2.default.createElement(
+            'div',
+            { className: 'projects' },
+            _react2.default.createElement('hr', null),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-right' },
+                _react2.default.createElement(
+                    'h2',
+                    null,
+                    'Sports Illustrated'
+                ),
+                _react2.default.createElement(
+                    'div',
+                    null,
+                    _react2.default.createElement('img', { className: 'project-img', src: '../assets/SI.png' }),
+                    _react2.default.createElement(
+                        'h4',
+                        null,
+                        'Leveraging a mix of jquery, javascript, express, drupal, css, and Sass, I created and debugged custom-made templates throughout site.  Worked closely with designers and dev-ops team to make sure complex and dynamic content\u2014-such as stats, current games, and mixed media articles--were presented correctly in multiple formats.'
+                    )
+                ),
+                _react2.default.createElement(
+                    'a',
+                    { href: 'https://www.si.com', target: '_blank' },
+                    'View Site'
+                )
+            ),
+            _react2.default.createElement('hr', null),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-left' },
+                _react2.default.createElement(
+                    'h2',
+                    null,
+                    'Bodhi'
+                ),
+                _react2.default.createElement(
+                    'div',
+                    null,
+                    _react2.default.createElement('img', { className: 'project-img', src: '../assets/bodhi.png' }),
+                    _react2.default.createElement(
+                        'h4',
+                        null,
+                        'Built using firebase database, and oauth on the backend and Material UI and React on the frontend, Bodhi is a social network for giving and receiving help.  Use the map functionality to see who in your area needs a quick hand.'
+                    )
+                ),
+                _react2.default.createElement(
+                    'a',
+                    { href: 'https://github.com/kulkarnipallavis/bodhi', target: '_blank' },
+                    'View Code'
+                )
+            ),
+            _react2.default.createElement('hr', null),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-right' },
+                _react2.default.createElement(
+                    'h2',
+                    null,
+                    'Superpower Store'
+                ),
+                _react2.default.createElement(
+                    'div',
+                    null,
+                    _react2.default.createElement('img', { className: 'project-img', src: '../assets/superpower_store.png' }),
+                    _react2.default.createElement(
+                        'h4',
+                        null,
+                        'Built using Postgres, Sequelize, and Express for the backend--with React powering the frontend, the Superpower Store exists for all of your superpower needs.'
+                    )
+                ),
+                _react2.default.createElement(
+                    'a',
+                    { href: 'https://github.com/JulieBusch/superpower-store', target: '_blank' },
+                    'View Code'
+                )
+            ),
+            _react2.default.createElement('hr', null),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-left' },
+                _react2.default.createElement(
+                    'h2',
+                    null,
+                    'Savta Phone'
+                ),
+                _react2.default.createElement('img', { className: 'project-img', src: '../assets/savta_phone.png' }),
+                _react2.default.createElement(
+                    'div',
+                    null,
+                    _react2.default.createElement(
+                        'h4',
+                        null,
+                        'Simplified and fully functional iOS phone application built using React Native to create a more accessible experience for users with visual and touch impairments.  This was a project originally created for the grandmother of a friend--Savta being Hebrew for Grandmother.  She had a difficult timing calling loved ones due to the small script on her phone screen and the number of buttons that she had to navigate--so I created a simple app to help her.'
+                    )
+                ),
+                _react2.default.createElement(
+                    'a',
+                    { href: 'https://github.com/goldienova/SavtaPhone', target: '_blank' },
+                    'View Code'
+                )
+            ),
+            _react2.default.createElement('hr', null),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-right' },
+                _react2.default.createElement(
+                    'h2',
+                    null,
+                    'Artsy Filtery'
+                ),
+                _react2.default.createElement('img', { className: 'project-img', src: '../assets/artsy_filtery.png' }),
+                _react2.default.createElement(
+                    'div',
+                    null,
+                    _react2.default.createElement(
+                        'h4',
+                        null,
+                        'Custom art filter made using HTML5\'s canvas element and vanilla javascript to dynamically iterate and re-render images.'
+                    )
+                ),
+                _react2.default.createElement(
+                    'a',
+                    { href: 'https://github.com/goldienova/Artsy-Filtery', target: '_blank' },
+                    'View Code'
+                )
+            )
         )
-      ),
-      _react2.default.createElement('hr', null),
-      _react2.default.createElement(
-        'div',
-        { className: 'project-left' },
-        _react2.default.createElement('img', { className: 'project-img', src: '../assets/savta_phone.png', style: { "margin-bottom": "2%", "margin-left": "2%" } }),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Savta Phone'
-        ),
-        _react2.default.createElement(
-          'h4',
-          null,
-          'Simplified and fully functional iOS phone application built using React Native to create a more accessible experience for users with visual and touch impairments. '
-        ),
-        _react2.default.createElement(
-          'a',
-          { href: 'https://github.com/goldienova/SavtaPhone', target: '_blank' },
-          'View Code'
-        )
-      )
-    ),
-    _react2.default.createElement('hr', null),
-    _react2.default.createElement(
-      'div',
-      { className: 'project-right' },
-      _react2.default.createElement('img', { className: 'project-img', src: '../assets/artsy_filtery.png', style: { "max-width": "25%" } }),
-      _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement('img', { className: 'project-img' }),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Artsy Filtery'
-        ),
-        _react2.default.createElement(
-          'h4',
-          null,
-          'Custom art filter made using HTML5\'s canvas element and vanilla javascript to dynamically iterate and re-render images.'
-        ),
-        _react2.default.createElement(
-          'a',
-          { href: 'https://github.com/goldienova/Artsy-Filtery', target: '_blank' },
-          'View Code'
-        )
-      )
-    )
-  );
+    );
 }
 
 /***/ }),
