@@ -1,6 +1,7 @@
 import React from 'react'
 
 import NavBar from './navBar.jsx'
+import StickyHeader from './StickyHeader.jsx'
 
 export default function Code() {
     var projects = [{ name: "Bodhi" }, { name: "Artsy Filtery" }, { name: "Superpower Store" }]
@@ -8,9 +9,9 @@ export default function Code() {
     return (
         <div className="projects-page">
         <NavBar />
-        <h1> Projects </h1>
+        <StickyHeader />
         <hr/>
-        <div className="projects">
+        <div id="projects" className="projects">
         <hr/>
 
         <div className="project-right">
@@ -18,7 +19,7 @@ export default function Code() {
 
             <div>
                 <img className="project-img" src="../assets/SI.png" />
-                <h4>Leveraging a mix of jquery, javascript, express, drupal, css, and Sass, I created and debugged custom-made templates throughout site.  Worked closely with designers and dev-ops team to make sure complex and dynamic content—-such as stats, current games, and mixed media articles--were presented correctly in multiple formats.
+                <h4>Leveraging a mix of jquery, javascript, express, drupal, css, and Sass, I created and debugged custom-made templates throughout site.  Worked closely with designers and dev-ops team to make sure complex and dynamic content—such as stats, current games, and mixed media articles—were presented correctly in multiple formats.
                 </h4>
             </div>
             <a href="https://www.si.com" target="_blank">View Site

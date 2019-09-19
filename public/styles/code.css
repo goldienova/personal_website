@@ -1,0 +1,206 @@
+#projects {
+
+  background-image: url(../assets/static.jpg);
+  background-size: 500px;
+  background-repeat: repeat;
+}
+
+#projects.with-scrollable-banner {
+  margin-top: 2%;
+}
+
+#projects.with-fixed-banner {
+  margin-top: 177px;
+}
+
+
+#projects h2 {
+  font-size: 2em;
+  color: #9fd6ac;
+  margin-top: 2%;
+  -webkit-text-stroke-width: .2px;
+  -webkit-text-stroke-color: black;
+}
+
+.project-left div {
+  height: 300px;
+}
+
+
+.project-left h2 {
+  text-align: right;
+  margin-right: 12%;
+}
+
+.project-left a {
+  font-size: 1.3em;
+  margin-left: 15%;
+  color: #5684ce;
+  clear: both;
+  -webkit-text-stroke-width: .7px;
+  -webkit-text-stroke-color: black;
+/*  display: block;*/
+}
+
+.project-left a:hover {
+  background: rgba(183, 201, 230, 0.5);
+}
+
+.project-left .project-img {
+  max-width: 45%;
+  max-height: 300px;
+  display: inline;
+  float: right;
+  margin-right: 10%;
+}
+
+.project-left h4 {
+  margin-top: 0;
+  display: inline-block;
+  max-width: 50%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.project-right div {
+  height: 300px;
+  display: inline;
+  width: 30%;
+  /*position: relative;*/
+}
+
+.project-right h2 {
+  margin-left: 10%;
+}
+
+.project-right a {
+  font-size: 1.3em;
+  margin-right: 15%;
+  float: right;
+  color: #5684ce;
+  clear: both;
+  -webkit-text-stroke-width: .7px;
+  -webkit-text-stroke-color: black;
+/*  position: absolute;
+  bottom: 0;*/
+}
+
+.project-right a:hover {
+  background: rgba(183, 201, 230, 0.5);
+}
+
+.project-right .project-img {
+  max-width: 45%;
+  max-height: 300px;
+  display: inline;
+  float: left;
+  margin-left: 10%;
+}
+
+.project-right h4 {
+  margin-top: 0;
+  display: inline-block;
+  max-width: 35%;
+/*  text-align: right;*/
+  margin-left: 5%;
+  clear: right;
+}
+
+.about{
+  background-color: white;
+  width: 75%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.about h1 {
+/*    background-color: white;*/
+  width: 75%;
+  margin: auto;
+/*  margin-top: 10%;*/
+}
+
+@media(max-device-width: 768px){
+  .navBar a, a:visited, a:hover {
+    font-size: 2.5em;
+  }
+
+  .projects {
+    margin-top: 27%;
+  }
+  .projects h2 {
+    font-size: 4em;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .projects-page h1 {
+    font-size: 3em;
+    margin-top: 13%;
+  }
+  .project-right {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .project-right h4 {
+    max-width: unset;
+    text-align: left;
+    font-size: 24px;
+    margin-top: 5%;
+    margin-left: unset;
+  }
+
+  .project-right h2 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .project-right a {
+    font-size: 2.5em;
+    margin-right: unset;
+  }
+
+  .project-right .project-img {
+    max-width: unset;
+    max-height: unset;
+    width: 100%;
+    display: block;
+    float: none;
+    margin: auto;
+    display: block;
+  }
+
+  .project-left h4 {
+    max-width: unset;
+    text-align: left;
+    font-size: 24px;
+    margin-top: 5%;
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  .project-left h2 {
+    margin-right: 0;
+  }
+
+  .project-left a {
+    margin-left: 0;
+  }
+
+  .project-left .project-img {
+    max-width: unset;
+    max-height: 50%;
+    display: block;
+    float: none;
+    margin: auto;
+    display: block;
+  }
+  .project-left {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .project-left div {
+    height: unset;
+  }
+
+}

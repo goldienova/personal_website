@@ -5,7 +5,8 @@
 
 body {
     font-family: 'New Rocker', 'Brush Script MT', cursive;
-    background-color: #ebaa8e;
+    background-color: #f7d2b7;
+    overflow-x: hidden;
 }
 
 header {
@@ -71,19 +72,6 @@ li a:hover {
 li a:hover {
     position: relative;
 }
-}
-/*
-li a:hover:before {
-    content: url(Experiments/underline.png);
-
-
-    display: block;
-    position: absolute;
-    left: 123px;
-
-    top: 56px;
-
-}*/
 
 li a:visited {
     color: color: #ccf;
@@ -91,47 +79,6 @@ li a:visited {
 li a:active {
     color: #d4865e;
 }
-/*
-li .dropdown a:hover {
-    border-bottom: none;
-    position: absolute;
-    width: 100%;
-}
-
-ul .dropdown a {
-    text-decoration: underline;
-}
-
-ul li ul {
-    display: none;
-    opacity: 0;
-    visibility: hidden;
-}
-
-ul li ul li {
-    background: #ffc2ff;
-    display: block;
-    color: #cc9900;
-    width: 120px;
-    text-align: center;
-}
-
-ul li ul li:visted {
-    background: #ffc2ff;
-    color: #c90;
-}
-
-ul li:hover ul {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-    margin-top: 2px;
-}
-
-ul .dropdown:hover a {
-    border-bottom: none;
-}
-*/
 
 img {
     padding: 0 10%;
@@ -178,7 +125,7 @@ a:hover .playground_link {
 article {
     padding-bottom: 20px;
     border-bottom: 5px solid hsl(345, 100%, 35%);
-    background-image: url(top-border.png), url(greenies.7.png);
+    background-image: url(top-border.png), url(greenies.png);
     background-repeat: repeat-x, repeat;
     /*margin-top: 36px;*/
     /*
