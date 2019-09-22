@@ -107,17 +107,14 @@
 }
 
 .about{
-  background-color: white;
   width: 75%;
   margin: auto;
   margin-top: 5%;
 }
 
 .about h1 {
-/*    background-color: white;*/
   width: 75%;
   margin: auto;
-/*  margin-top: 10%;*/
 }
 
 @media(max-device-width: 768px){
